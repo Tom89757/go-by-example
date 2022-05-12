@@ -50,7 +50,7 @@ type DictResponse struct {
 
 func main() {
 	client := &http.Client{}
-	request := DictRequest{TransType: "en2zh", Source: "good"}
+	request := DictRequest{TransType: "en2zh", Source: "fuck"}
 	buf, err := json.Marshal(request)
 	if err != nil {
 		log.Fatal(err)

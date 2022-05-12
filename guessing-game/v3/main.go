@@ -24,8 +24,10 @@ func main() {
 		return
 	}
 	input = strings.TrimSuffix(input, "\n")
+	// fmt.Println(input)
 
 	guess, err := strconv.Atoi(input)
+	// fmt.Println(err)
 	if err != nil {
 		fmt.Println("Invalid input. Please enter an integer value")
 		return
